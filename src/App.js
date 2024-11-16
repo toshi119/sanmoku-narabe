@@ -1,4 +1,4 @@
-export default function Board() {
+const Board = () => {
   return (
     <>
       <div className="board-row">
@@ -19,3 +19,5 @@ export default function Board() {
     </>
   );
 }
+
+export default Board;
