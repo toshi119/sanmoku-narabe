@@ -1,5 +1,16 @@
 const Square = ({ value }) => {
-  return <button className="square">{value}</button>
+  function handleClick() {
+    console.log("clicked");
+  }
+
+  return (
+    <button 
+      className="square"
+      onClick={handleClick}
+    >
+      {value}
+    </button>
+  )
 }
 
 export default Square;
